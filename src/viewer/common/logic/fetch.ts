@@ -19,7 +19,7 @@ export async function fetchFromBytebin(
     router: NextRouter,
     thumbnailOnly: boolean
 ) {
-    let bytebinUrl = 'https://bytebin.lucko.me/';
+    let bytebinUrl = 'https://bytebin.imoe.xyz/';
     if (thumbnailOnly && router.query['x-bytebin-url']) {
         bytebinUrl = router.query['x-bytebin-url'] as string;
     }

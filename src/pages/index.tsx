@@ -30,8 +30,8 @@ const Index: NextPageWithLayout = () => {
 
     return (
         <article className={styles.homepage}>
-            <Navigation />
-            <AboutSection />
+            {/*<Navigation />*/}
+            {/*<AboutSection />*/}
             <ViewerSection onFileSelected={onFileSelected} />
         </article>
     );
